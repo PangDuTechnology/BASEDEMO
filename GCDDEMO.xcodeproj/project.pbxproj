@@ -22,6 +22,7 @@
 		145EB3E02769D05F0036E8E7 /* AlgorithThoughtModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 145EB3DF2769D05F0036E8E7 /* AlgorithThoughtModel.m */; };
 		145EB3E32769D1A60036E8E7 /* AlgorithmSearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 145EB3E22769D1A60036E8E7 /* AlgorithmSearchModel.m */; };
 		148F028527647AAF00405983 /* AlgorithmFactoryListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 148F028427647AAF00405983 /* AlgorithmFactoryListViewModel.m */; };
+		1496359D276AE0C800A02BCA /* AlgorithmThoughtViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1496359C276AE0C800A02BCA /* AlgorithmThoughtViewModel.m */; };
 		149837602763078C00194EF6 /* AlgorithmListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498375F2763078C00194EF6 /* AlgorithmListViewController.m */; };
 		14983763276307C300194EF6 /* AlgorithmDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14983762276307C300194EF6 /* AlgorithmDetailViewController.m */; };
 		149837662763082C00194EF6 /* AlgorithmMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 149837652763082C00194EF6 /* AlgorithmMenuModel.m */; };
@@ -77,6 +78,8 @@
 		148F028327647AAF00405983 /* AlgorithmFactoryListViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmFactoryListViewModel.h; sourceTree = "<group>"; };
 		148F028427647AAF00405983 /* AlgorithmFactoryListViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmFactoryListViewModel.m; sourceTree = "<group>"; };
 		148F028627647B0B00405983 /* AlgorithmModelsMethodDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmModelsMethodDelegate.h; sourceTree = "<group>"; };
+		1496359B276AE0C800A02BCA /* AlgorithmThoughtViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmThoughtViewModel.h; sourceTree = "<group>"; };
+		1496359C276AE0C800A02BCA /* AlgorithmThoughtViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmThoughtViewModel.m; sourceTree = "<group>"; };
 		1498375E2763078C00194EF6 /* AlgorithmListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmListViewController.h; sourceTree = "<group>"; };
 		1498375F2763078C00194EF6 /* AlgorithmListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmListViewController.m; sourceTree = "<group>"; };
 		14983761276307C300194EF6 /* AlgorithmDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmDetailViewController.h; sourceTree = "<group>"; };
@@ -263,6 +266,24 @@
 			path = list;
 			sourceTree = "<group>";
 		};
+		14963599276ADFDC00A02BCA /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				1498376D2763088E00194EF6 /* AlgorithmDetailViewModel.h */,
+				1498376E2763088E00194EF6 /* AlgorithmDetailViewModel.m */,
+			);
+			path = detail;
+			sourceTree = "<group>";
+		};
+		1496359A276AE05E00A02BCA /* AlgorithThought */ = {
+			isa = PBXGroup;
+			children = (
+				1496359B276AE0C800A02BCA /* AlgorithmThoughtViewModel.h */,
+				1496359C276AE0C800A02BCA /* AlgorithmThoughtViewModel.m */,
+			);
+			path = AlgorithThought;
+			sourceTree = "<group>";
+		};
 		1498375D2763070A00194EF6 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
@@ -345,8 +366,8 @@
 				1498378227632D2500194EF6 /* AlgorithmMenuViewModel.m */,
 				1498376A2763086C00194EF6 /* AlgorithmListViewModel.h */,
 				1498376B2763086C00194EF6 /* AlgorithmListViewModel.m */,
-				1498376D2763088E00194EF6 /* AlgorithmDetailViewModel.h */,
-				1498376E2763088E00194EF6 /* AlgorithmDetailViewModel.m */,
+				1496359A276AE05E00A02BCA /* AlgorithThought */,
+				14963599276ADFDC00A02BCA /* detail */,
 			);
 			path = viewModels;
 			sourceTree = "<group>";
@@ -554,6 +575,7 @@
 				1498378327632D2500194EF6 /* AlgorithmMenuViewModel.m in Sources */,
 				1431B217273229DC003820C0 /* QueueViewModel.m in Sources */,
 				145EB3E02769D05F0036E8E7 /* AlgorithThoughtModel.m in Sources */,
+				1496359D276AE0C800A02BCA /* AlgorithmThoughtViewModel.m in Sources */,
 				1453DFFA274775DF0004690F /* SocketViewController.m in Sources */,
 				1453E002274778080004690F /* SceneDelegateViewModel.m in Sources */,
 				14983790276332D000194EF6 /* AlgorithmFactoryMenuViewModel.m in Sources */,

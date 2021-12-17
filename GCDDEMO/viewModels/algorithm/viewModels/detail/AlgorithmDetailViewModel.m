@@ -172,10 +172,13 @@
 
  */
 - (void)mergeSortAlgorithm{
-    NSMutableArray *array = [NSMutableArray arrayWithArray:@[@"30",@"18",@"234",@"88",@"70",@"90",@"23",@"78"]];
+    NSMutableArray *array = [NSMutableArray arrayWithArray:@[@"30",@"18",@"234",@"88",@"2345",@"1",@"9999",@"1233"]];
     NSMutableArray *newArray = [[NSMutableArray alloc] init];
     [AlgorithmDetailViewModel mergeSortArray:array newArray:newArray left:0 right:array.count - 1 ];
-    NSLog(@"归并排序====== %@",newArray);
+    NSLog(@"排序前======%@",array);
+    NSLog(@"归并排序递归调用====== %@",newArray);
+    [AlgorithmDetailViewModel mergeSortConventional:array sortArray:newArray];
+    NSLog(@"归并排序常规方式======%@",newArray);
 }
 +(void)mergeSortArray:(NSMutableArray *)array
              newArray:(NSMutableArray *)newArray
@@ -215,6 +218,52 @@
     //将newArray中的元素全部拷贝到原数组中
     while(left <= right){
         array[left++] = newArray[m++];
+    }
+}
+//归并排序非递归调用
++ (void)mergeSortConventional:(NSMutableArray *)array sortArray:(NSMutableArray *)sortArray{
+    NSInteger interval = 1;
+    while (interval < array.count) {
+        [self mergePassConventional:array sortArray:sortArray interval:interval lenth:array.count];
+        interval *=2;
+    }
+}
+//将array中相邻长度为
++ (void)mergePassConventional:(NSMutableArray *)array                    sortArray:(NSMutableArray *)sortArray
+                     interval:(NSInteger)interval
+                        lenth:(NSInteger)lenth{
+    NSInteger i = 0;
+    NSInteger j;
+    while (i <= lenth - 2*interval) { //两两归并
+        [self mergeArray:array sortArray:sortArray i:i m:i+interval-1 n:i+2*interval-1];
+        i = i+2*interval;
+    }
+    if (i < lenth-interval) {
+        [self mergeArray:array sortArray:sortArray i:i m:i+interval-1 n:lenth];
+    }else{
+        for (j = i; j < lenth; j++) {
+            sortArray[j] = array[j];
+        }
+    }
+}
++ (void)mergeArray:(NSMutableArray *)array sortArray:(NSMutableArray *)sortArray i:(NSInteger)i m:(NSInteger)m n:(NSInteger)n{
+    NSInteger j,k;
+    for (j = m+1,k=i; i<=m && j <=n;  k++) {//将array中记录由小到大并入sortArray
+        if ([array[i] integerValue] <[array[j] integerValue] ) {
+            sortArray[k] = array[i++];
+        }else{
+            sortArray[k] = array[j++];
+        }
+    }
+    if (i <= m) {                         //  将剩余的array[i..m]复制到sortArray
+        for (; i<=m-i; i++) {
+            sortArray[k++] = array[i];
+        }
+    }
+    if (j <= n) {                         //  将剩余的array[j..m]复制到sortArray
+        for (; j <= n-j; j++ ) {
+            sortArray[k++] = array[j];
+        }
     }
 }
 @end
