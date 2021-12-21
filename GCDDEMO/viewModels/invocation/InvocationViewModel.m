@@ -10,14 +10,18 @@
 @implementation InvocationViewModel
 - (id)performSelector:(SEL)aSelector withArguments:(NSArray *)arguments class:(Class) class object:(nonnull id)object{
     
-    if (aSelector == nil) return nil;
+    if (aSelector == nil)
+        return nil;
     NSMethodSignature *signature = [class instanceMethodSignatureForSelector:aSelector];
+    if (signature.numberOfArguments == 0) {
+        return nil;
+    }
     NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:signature];
     invocation.target = object;
     invocation.selector = aSelector;
     // invocation 有2个隐藏参数，所以 argument 从2开始
     if ([arguments isKindOfClass:[NSArray class]]) {
-        NSInteger count = MIN(arguments.count, signature.numberOfArguments - 2);
+        NSInteger count = MIN(signature.numberOfArguments - 2,arguments.count);
         for (int i = 0; i < count; i++) {
             const char *type = [signature getArgumentTypeAtIndex:2 + i];
             // 需要做参数类型判断然后解析成对应类型，这里默认所有参数均为OC对象

@@ -19,8 +19,8 @@
     return self.viewModel;
 }
 #pragma mark ------ AlgorithmModelsMethodDelegate
-- (void)didSelectRowAtIndexPath:(NSIndexPath*)indexPath pushController:(UIViewController *)pushController{
-    [self.viewModel didSelectRowAtIndexPath:indexPath pushController:pushController];
+- (void)didSelectRowAtIndexPathArray:(NSArray*)array pushController:(UIViewController *)pushController{
+    [self.viewModel didSelectRowAtIndexPathArray:array pushController:pushController];
 }
 - (NSArray *)setTableViewDataSoure:(id)indexPath{
     NSIndexPath *index = indexPath;

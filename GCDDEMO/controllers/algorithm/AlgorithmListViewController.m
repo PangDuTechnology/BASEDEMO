@@ -11,6 +11,7 @@
 @property(nonatomic, strong)UITableView                        *tableView;
 @property(nonatomic, strong) AlgorithmFactoryListViewModel *viewModel;
 @property(nonatomic, strong) NSMutableArray                 *dataArray;
+@property(nonatomic, copy) NSString                                  *strModel;
 @end
 
 @implementation AlgorithmListViewController
@@ -21,7 +22,9 @@
     [self.view addSubview:self.tableView];
 }
 - (void)setTableViewDataSource:(id)dataSource{
-   NSArray *data = [self.viewModel setTableViewDataSoure:dataSource];
+    NSIndexPath *indexPath = dataSource[0];
+    self.strModel = dataSource[1];
+   NSArray *data = [self.viewModel setTableViewDataSoure:indexPath];
     [self.dataArray addObjectsFromArray:data];
     [self.tableView reloadData];
 }
@@ -40,7 +43,8 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    [self.viewModel didSelectRowAtIndexPath:indexPath pushController:self];
+    NSArray *array = @[@[indexPath,self.strModel]];
+    [self.viewModel didSelectRowAtIndexPathArray:array pushController:self];
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 #pragma mark ------ property

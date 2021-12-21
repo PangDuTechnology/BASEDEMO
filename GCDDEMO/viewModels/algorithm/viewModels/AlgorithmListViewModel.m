@@ -9,11 +9,11 @@
 
 @implementation AlgorithmListViewModel
 #pragma mark ------ AlgorithmViewModelDelegate
-- (void)didSelectRowAtIndexPath:(id)indexPath pushController:(UIViewController *)pushController{
+- (void)didSelectRowAtIndexPathArray:(NSArray *)array pushController:(UIViewController *)pushController{
     SEL sel = NSSelectorFromString(@"setTableViewDataSource:");
     Class class = NSClassFromString(@"AlgorithmDetailViewController");
     UIViewController  *controller = [class new];
-    [self.invocationViewModel performSelector:sel withArguments:@[indexPath] class:class object:controller];
+    [self.invocationViewModel performSelector:sel withArguments:array class:class object:controller];
     [pushController.navigationController pushViewController:controller animated:YES];
 }
 @end

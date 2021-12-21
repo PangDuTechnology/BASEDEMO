@@ -9,6 +9,5 @@
 #import <UIKit/UIkit.h>
 @protocol AlgorithmViewModelDelegate <NSObject>
 @optional
-- (void)algorithmSetModel:(id)model;
-- (void)didSelectRowAtIndexPath:(id)indexPath pushController:(UIViewController *)pushController;
+- (void)didSelectRowAtIndexPathArray:(NSArray*)array pushController:(UIViewController *)pushController;
 @end

@@ -35,7 +35,7 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    [self.viewModel didSelectRowAtIndexPath:indexPath pushController:self];
+    [self.viewModel didSelectRowAtIndexPathArray:@[indexPath] pushController:self];
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 #pragma mark ------ property

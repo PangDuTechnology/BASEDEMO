@@ -20,7 +20,7 @@
 }
 #pragma mark ------ set data
 - (void)setTableViewDataSource:(id)dataSource{
-    [self.viewModel didSelectRowAtIndexPath:dataSource];
+    [self.viewModel didSelectRowAtIndexPathArray:dataSource pushController:self];
 }
 #pragma mark ------ property
 - (AlgorithmFactoryDetailViewModel *)viewModel{

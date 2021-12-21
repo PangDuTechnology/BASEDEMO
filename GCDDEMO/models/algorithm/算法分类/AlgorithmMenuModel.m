@@ -8,7 +8,6 @@
 #import "AlgorithmMenuModel.h"
 
 @interface AlgorithmMenuModel ()
-@property(nonatomic, copy) NSArray *listArray;
 @end
 
 @implementation AlgorithmMenuModel

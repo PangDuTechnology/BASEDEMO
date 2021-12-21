@@ -16,6 +16,9 @@
 		1431B213273223BF003820C0 /* ListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1431B212273223BF003820C0 /* ListViewModel.m */; };
 		1431B217273229DC003820C0 /* QueueViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1431B216273229DC003820C0 /* QueueViewModel.m */; };
 		1431B21A2732320B003820C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1431B2182732320B003820C0 /* Main.storyboard */; };
+		143B40CA2771842600292E7E /* AlgorithmDetailViewModel+Algorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 143B40C92771842600292E7E /* AlgorithmDetailViewModel+Algorithm.m */; };
+		143B40CD2771856900292E7E /* AlgorithmSortThoughtModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 143B40CC2771856900292E7E /* AlgorithmSortThoughtModel.m */; };
+		143B40D227718ECA00292E7E /* AlgorithmDetailViewModel+AlgorithmThought.m in Sources */ = {isa = PBXBuildFile; fileRef = 143B40D127718ECA00292E7E /* AlgorithmDetailViewModel+AlgorithmThought.m */; };
 		1453DFFA274775DF0004690F /* SocketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1453DFF9274775DF0004690F /* SocketViewController.m */; };
 		1453E002274778080004690F /* SceneDelegateViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1453E001274778080004690F /* SceneDelegateViewModel.m */; };
 		145EB3DD276844FF0036E8E7 /* AlgorithmFactoryDetailViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 145EB3DC276844FF0036E8E7 /* AlgorithmFactoryDetailViewModel.m */; };
@@ -64,6 +67,12 @@
 		1431B215273229DC003820C0 /* QueueViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueueViewModel.h; sourceTree = "<group>"; };
 		1431B216273229DC003820C0 /* QueueViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueueViewModel.m; sourceTree = "<group>"; };
 		1431B2192732320B003820C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		143B40C82771842600292E7E /* AlgorithmDetailViewModel+Algorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlgorithmDetailViewModel+Algorithm.h"; sourceTree = "<group>"; };
+		143B40C92771842600292E7E /* AlgorithmDetailViewModel+Algorithm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AlgorithmDetailViewModel+Algorithm.m"; sourceTree = "<group>"; };
+		143B40CB2771856900292E7E /* AlgorithmSortThoughtModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmSortThoughtModel.h; sourceTree = "<group>"; };
+		143B40CC2771856900292E7E /* AlgorithmSortThoughtModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmSortThoughtModel.m; sourceTree = "<group>"; };
+		143B40D027718ECA00292E7E /* AlgorithmDetailViewModel+AlgorithmThought.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlgorithmDetailViewModel+AlgorithmThought.h"; sourceTree = "<group>"; };
+		143B40D127718ECA00292E7E /* AlgorithmDetailViewModel+AlgorithmThought.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AlgorithmDetailViewModel+AlgorithmThought.m"; sourceTree = "<group>"; };
 		1453DFF8274775DF0004690F /* SocketViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketViewController.h; sourceTree = "<group>"; };
 		1453DFF9274775DF0004690F /* SocketViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketViewController.m; sourceTree = "<group>"; };
 		1453E000274778080004690F /* SceneDelegateViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegateViewModel.h; sourceTree = "<group>"; };
@@ -148,10 +157,8 @@
 		1431B2012730F025003820C0 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
-				14B5EBDB27269C9B00EFC011 /* ListViewController.h */,
-				14B5EBDC27269C9B00EFC011 /* ListViewController.m */,
-				1453DFF8274775DF0004690F /* SocketViewController.h */,
-				1453DFF9274775DF0004690F /* SocketViewController.m */,
+				143B40CF2771866400292E7E /* socket */,
+				143B40CE2771865500292E7E /* list */,
 				1498375D2763070A00194EF6 /* algorithm */,
 			);
 			path = controllers;
@@ -200,6 +207,24 @@
 				14133284273B941500E9280A /* QuestionsViewModel.m */,
 			);
 			path = queue;
+			sourceTree = "<group>";
+		};
+		143B40CE2771865500292E7E /* list */ = {
+			isa = PBXGroup;
+			children = (
+				14B5EBDB27269C9B00EFC011 /* ListViewController.h */,
+				14B5EBDC27269C9B00EFC011 /* ListViewController.m */,
+			);
+			path = list;
+			sourceTree = "<group>";
+		};
+		143B40CF2771866400292E7E /* socket */ = {
+			isa = PBXGroup;
+			children = (
+				1453DFF8274775DF0004690F /* SocketViewController.h */,
+				1453DFF9274775DF0004690F /* SocketViewController.m */,
+			);
+			path = socket;
 			sourceTree = "<group>";
 		};
 		1453DFFB274776D20004690F /* list */ = {
@@ -271,6 +296,10 @@
 			children = (
 				1498376D2763088E00194EF6 /* AlgorithmDetailViewModel.h */,
 				1498376E2763088E00194EF6 /* AlgorithmDetailViewModel.m */,
+				143B40D027718ECA00292E7E /* AlgorithmDetailViewModel+AlgorithmThought.h */,
+				143B40D127718ECA00292E7E /* AlgorithmDetailViewModel+AlgorithmThought.m */,
+				143B40C82771842600292E7E /* AlgorithmDetailViewModel+Algorithm.h */,
+				143B40C92771842600292E7E /* AlgorithmDetailViewModel+Algorithm.m */,
 			);
 			path = detail;
 			sourceTree = "<group>";
@@ -313,6 +342,8 @@
 				1498377527630A4D00194EF6 /* AlgorithmSortModel.m */,
 				1498377727630E0300194EF6 /* AlgorithmSortDetailModel.h */,
 				1498377827630E0300194EF6 /* AlgorithmSortDetailModel.m */,
+				143B40CB2771856900292E7E /* AlgorithmSortThoughtModel.h */,
+				143B40CC2771856900292E7E /* AlgorithmSortThoughtModel.m */,
 			);
 			path = "排序算法";
 			sourceTree = "<group>";
@@ -570,6 +601,7 @@
 				14B5EBD727269C9B00EFC011 /* AppDelegate.m in Sources */,
 				14D77AA92760890B00247D06 /* AlgorithmViewModel.m in Sources */,
 				1498377927630E0300194EF6 /* AlgorithmSortDetailModel.m in Sources */,
+				143B40CD2771856900292E7E /* AlgorithmSortThoughtModel.m in Sources */,
 				14D77AA5276088E300247D06 /* AlgorithmModel.m in Sources */,
 				14D77AAC2760894D00247D06 /* AlgorithmViewController.m in Sources */,
 				1498378327632D2500194EF6 /* AlgorithmMenuViewModel.m in Sources */,
@@ -588,6 +620,7 @@
 				1498377D27631A8500194EF6 /* InvocationViewModel.m in Sources */,
 				14133288273B943900E9280A /* QuestionsModel.m in Sources */,
 				145EB3DD276844FF0036E8E7 /* AlgorithmFactoryDetailViewModel.m in Sources */,
+				143B40CA2771842600292E7E /* AlgorithmDetailViewModel+Algorithm.m in Sources */,
 				149837662763082C00194EF6 /* AlgorithmMenuModel.m in Sources */,
 				14B5EBE827269C9D00EFC011 /* main.m in Sources */,
 				1498377627630A4D00194EF6 /* AlgorithmSortModel.m in Sources */,
@@ -595,6 +628,7 @@
 				1498376F2763088E00194EF6 /* AlgorithmDetailViewModel.m in Sources */,
 				1431B20D2731EACF003820C0 /* CommonModel.m in Sources */,
 				14B5EBDA27269C9B00EFC011 /* SceneDelegate.m in Sources */,
+				143B40D227718ECA00292E7E /* AlgorithmDetailViewModel+AlgorithmThought.m in Sources */,
 				148F028527647AAF00405983 /* AlgorithmFactoryListViewModel.m in Sources */,
 				149837692763084C00194EF6 /* AlgorithmDetailModel.m in Sources */,
 				145EB3E32769D1A60036E8E7 /* AlgorithmSearchModel.m in Sources */,

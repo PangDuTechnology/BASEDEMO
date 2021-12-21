@@ -11,8 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 @protocol AlgorithmModelsMethodDelegate <NSObject>
 @optional
 - (NSArray *)tableViewDataSourceData;
-- (void)didSelectRowAtIndexPath:(NSIndexPath*)indexPath;
-- (void)didSelectRowAtIndexPath:(NSIndexPath*)indexPath pushController:(UIViewController *)pushController;
+- (void)didSelectRowAtIndexPathArray:(NSArray*)array pushController:(UIViewController *)pushController;
 - (NSArray *)setTableViewDataSoure:(id)indexPath;
 @end
 
