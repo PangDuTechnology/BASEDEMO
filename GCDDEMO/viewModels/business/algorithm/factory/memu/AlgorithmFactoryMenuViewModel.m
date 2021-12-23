@@ -46,9 +46,10 @@
 - (NSDictionary *)menuDictionary{
     if (!_menuDictionary) {
         _menuDictionary = @{
-            @0  :  @"AlgorithThoughtModel",
-            @1  :   @"AlgorithmSortModel",
-            @2 :    @"AlgorithmSearchModel"
+            @0  :   @"AlgorithThoughtModel",
+            @1  :    @"AlgorithmSortModel",
+            @2  :    @"AlgorithmSearchModel",
+            @3  :   @"AlgorithmSubjectModel"
         };
     }
     return _menuDictionary;

@@ -7,15 +7,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "99079565-B1A8-412A-ABA7-47161558799B"
+            uuid = "AC2621E8-F4B1-4061-A1C4-65BE34BA96E1"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "GCDDEMO/viewModels/algorithm/viewModels/AlgorithThought/AlgorithmThoughtViewModel.m"
+            filePath = "GCDDEMO/viewModels/algorithm/viewModels/algorithThought/AlgorithmThoughtViewModel.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "13"
-            endingLineNumber = "13"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
             landmarkName = "-didSelectRowAtIndexPath:pushController:"
             landmarkType = "7">
          </BreakpointContent>

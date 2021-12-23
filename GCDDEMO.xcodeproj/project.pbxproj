@@ -25,11 +25,9 @@
 		145EB3E02769D05F0036E8E7 /* AlgorithThoughtModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 145EB3DF2769D05F0036E8E7 /* AlgorithThoughtModel.m */; };
 		145EB3E32769D1A60036E8E7 /* AlgorithmSearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 145EB3E22769D1A60036E8E7 /* AlgorithmSearchModel.m */; };
 		148F028527647AAF00405983 /* AlgorithmFactoryListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 148F028427647AAF00405983 /* AlgorithmFactoryListViewModel.m */; };
-		1496359D276AE0C800A02BCA /* AlgorithmThoughtViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1496359C276AE0C800A02BCA /* AlgorithmThoughtViewModel.m */; };
 		149837602763078C00194EF6 /* AlgorithmListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498375F2763078C00194EF6 /* AlgorithmListViewController.m */; };
 		14983763276307C300194EF6 /* AlgorithmDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14983762276307C300194EF6 /* AlgorithmDetailViewController.m */; };
 		149837662763082C00194EF6 /* AlgorithmMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 149837652763082C00194EF6 /* AlgorithmMenuModel.m */; };
-		149837692763084C00194EF6 /* AlgorithmDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 149837682763084C00194EF6 /* AlgorithmDetailModel.m */; };
 		1498376C2763086C00194EF6 /* AlgorithmListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498376B2763086C00194EF6 /* AlgorithmListViewModel.m */; };
 		1498376F2763088E00194EF6 /* AlgorithmDetailViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498376E2763088E00194EF6 /* AlgorithmDetailViewModel.m */; };
 		1498377627630A4D00194EF6 /* AlgorithmSortModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498377527630A4D00194EF6 /* AlgorithmSortModel.m */; };
@@ -37,6 +35,8 @@
 		1498377D27631A8500194EF6 /* InvocationViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498377C27631A8500194EF6 /* InvocationViewModel.m */; };
 		1498378327632D2500194EF6 /* AlgorithmMenuViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498378227632D2500194EF6 /* AlgorithmMenuViewModel.m */; };
 		14983790276332D000194EF6 /* AlgorithmFactoryMenuViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498378F276332D000194EF6 /* AlgorithmFactoryMenuViewModel.m */; };
+		14A1A20C27741A4200ADE9CE /* AlgorithmSubjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A1A20B27741A4200ADE9CE /* AlgorithmSubjectModel.m */; };
+		14A1A21C277422A700ADE9CE /* AlgorithmDetailViewModel+Subject.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A1A21B277422A700ADE9CE /* AlgorithmDetailViewModel+Subject.m */; };
 		14B5EBD727269C9B00EFC011 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B5EBD627269C9B00EFC011 /* AppDelegate.m */; };
 		14B5EBDA27269C9B00EFC011 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B5EBD927269C9B00EFC011 /* SceneDelegate.m */; };
 		14B5EBDD27269C9B00EFC011 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B5EBDC27269C9B00EFC011 /* ListViewController.m */; };
@@ -89,16 +89,12 @@
 		148F028327647AAF00405983 /* AlgorithmFactoryListViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmFactoryListViewModel.h; sourceTree = "<group>"; };
 		148F028427647AAF00405983 /* AlgorithmFactoryListViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmFactoryListViewModel.m; sourceTree = "<group>"; };
 		148F028627647B0B00405983 /* AlgorithmModelsMethodDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmModelsMethodDelegate.h; sourceTree = "<group>"; };
-		1496359B276AE0C800A02BCA /* AlgorithmThoughtViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmThoughtViewModel.h; sourceTree = "<group>"; };
-		1496359C276AE0C800A02BCA /* AlgorithmThoughtViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmThoughtViewModel.m; sourceTree = "<group>"; };
 		1498375E2763078C00194EF6 /* AlgorithmListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmListViewController.h; sourceTree = "<group>"; };
 		1498375F2763078C00194EF6 /* AlgorithmListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmListViewController.m; sourceTree = "<group>"; };
 		14983761276307C300194EF6 /* AlgorithmDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmDetailViewController.h; sourceTree = "<group>"; };
 		14983762276307C300194EF6 /* AlgorithmDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmDetailViewController.m; sourceTree = "<group>"; };
 		149837642763082C00194EF6 /* AlgorithmMenuModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmMenuModel.h; sourceTree = "<group>"; };
 		149837652763082C00194EF6 /* AlgorithmMenuModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmMenuModel.m; sourceTree = "<group>"; };
-		149837672763084C00194EF6 /* AlgorithmDetailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmDetailModel.h; sourceTree = "<group>"; };
-		149837682763084C00194EF6 /* AlgorithmDetailModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmDetailModel.m; sourceTree = "<group>"; };
 		1498376A2763086C00194EF6 /* AlgorithmListViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmListViewModel.h; sourceTree = "<group>"; };
 		1498376B2763086C00194EF6 /* AlgorithmListViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmListViewModel.m; sourceTree = "<group>"; };
 		1498376D2763088E00194EF6 /* AlgorithmDetailViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmDetailViewModel.h; sourceTree = "<group>"; };
@@ -114,6 +110,10 @@
 		1498378A27632FCC00194EF6 /* CreateAlgorithmModelsDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateAlgorithmModelsDelegate.h; sourceTree = "<group>"; };
 		1498378E276332D000194EF6 /* AlgorithmFactoryMenuViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmFactoryMenuViewModel.h; sourceTree = "<group>"; };
 		1498378F276332D000194EF6 /* AlgorithmFactoryMenuViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmFactoryMenuViewModel.m; sourceTree = "<group>"; };
+		14A1A20A27741A4200ADE9CE /* AlgorithmSubjectModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmSubjectModel.h; sourceTree = "<group>"; };
+		14A1A20B27741A4200ADE9CE /* AlgorithmSubjectModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmSubjectModel.m; sourceTree = "<group>"; };
+		14A1A21A277422A700ADE9CE /* AlgorithmDetailViewModel+Subject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlgorithmDetailViewModel+Subject.h"; sourceTree = "<group>"; };
+		14A1A21B277422A700ADE9CE /* AlgorithmDetailViewModel+Subject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AlgorithmDetailViewModel+Subject.m"; sourceTree = "<group>"; };
 		14B5EBD227269C9B00EFC011 /* GCDDEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCDDEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14B5EBD527269C9B00EFC011 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		14B5EBD627269C9B00EFC011 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -190,12 +190,8 @@
 		1431B2042730F078003820C0 /* viewModels */ = {
 			isa = PBXGroup;
 			children = (
-				1498378427632D8C00194EF6 /* factory */,
-				1498377A27631A4800194EF6 /* invocation */,
-				14D77AA6276088ED00247D06 /* algorithm */,
-				1453DFFF274777C50004690F /* sceneDelegate */,
-				1453DFFC274776E70004690F /* socket */,
-				1453DFFB274776D20004690F /* list */,
+				14A1A21D277422C700ADE9CE /* base */,
+				14A1A21E277422F400ADE9CE /* business */,
 			);
 			path = viewModels;
 			sourceTree = "<group>";
@@ -302,23 +298,10 @@
 			children = (
 				1498376D2763088E00194EF6 /* AlgorithmDetailViewModel.h */,
 				1498376E2763088E00194EF6 /* AlgorithmDetailViewModel.m */,
-				14D582CC2772FF9E00AA075B /* AlgorithmDetailViewModel+Search.h */,
-				14D582CD2772FF9E00AA075B /* AlgorithmDetailViewModel+Search.m */,
-				143B40D027718ECA00292E7E /* AlgorithmDetailViewModel+AlgorithmThought.h */,
-				143B40D127718ECA00292E7E /* AlgorithmDetailViewModel+AlgorithmThought.m */,
-				143B40C82771842600292E7E /* AlgorithmDetailViewModel+Algorithm.h */,
-				143B40C92771842600292E7E /* AlgorithmDetailViewModel+Algorithm.m */,
+				14A1A2182774222C00ADE9CE /* baseAlgorithm */,
+				14A1A2192774224A00ADE9CE /* subject */,
 			);
 			path = detail;
-			sourceTree = "<group>";
-		};
-		1496359A276AE05E00A02BCA /* AlgorithThought */ = {
-			isa = PBXGroup;
-			children = (
-				1496359B276AE0C800A02BCA /* AlgorithmThoughtViewModel.h */,
-				1496359C276AE0C800A02BCA /* AlgorithmThoughtViewModel.m */,
-			);
-			path = AlgorithThought;
 			sourceTree = "<group>";
 		};
 		1498375D2763070A00194EF6 /* algorithm */ = {
@@ -367,7 +350,7 @@
 			path = "查找算法";
 			sourceTree = "<group>";
 		};
-		14983773276309DE00194EF6 /* 算法分类 */ = {
+		14983773276309DE00194EF6 /* 算法 */ = {
 			isa = PBXGroup;
 			children = (
 				149837642763082C00194EF6 /* AlgorithmMenuModel.h */,
@@ -375,8 +358,9 @@
 				14983770276309A500194EF6 /* 基本算法思想 */,
 				14983771276309B400194EF6 /* 排序算法 */,
 				14983772276309C500194EF6 /* 查找算法 */,
+				14A1A209277419A300ADE9CE /* 习题集 */,
 			);
-			path = "算法分类";
+			path = "算法";
 			sourceTree = "<group>";
 		};
 		1498377A27631A4800194EF6 /* invocation */ = {
@@ -388,26 +372,21 @@
 			path = invocation;
 			sourceTree = "<group>";
 		};
-		1498378427632D8C00194EF6 /* factory */ = {
+		1498378427632D8C00194EF6 /* factoryDelegate */ = {
 			isa = PBXGroup;
 			children = (
 				1498378A27632FCC00194EF6 /* CreateAlgorithmModelsDelegate.h */,
 				148F028627647B0B00405983 /* AlgorithmModelsMethodDelegate.h */,
-				1498378D2763328F00194EF6 /* memu */,
-				148F028227647A8900405983 /* list */,
-				145EB3DA276844B20036E8E7 /* detail */,
 			);
-			path = factory;
+			path = factoryDelegate;
 			sourceTree = "<group>";
 		};
 		1498378627632E5600194EF6 /* viewModels */ = {
 			isa = PBXGroup;
 			children = (
-				1498378127632D2500194EF6 /* AlgorithmMenuViewModel.h */,
-				1498378227632D2500194EF6 /* AlgorithmMenuViewModel.m */,
-				1498376A2763086C00194EF6 /* AlgorithmListViewModel.h */,
-				1498376B2763086C00194EF6 /* AlgorithmListViewModel.m */,
-				1496359A276AE05E00A02BCA /* AlgorithThought */,
+				14A1A21727741FC400ADE9CE /* base */,
+				14A1A21527741F9F00ADE9CE /* menu */,
+				14A1A21627741FAA00ADE9CE /* list */,
 				14963599276ADFDC00A02BCA /* detail */,
 			);
 			path = viewModels;
@@ -420,6 +399,95 @@
 				1498378F276332D000194EF6 /* AlgorithmFactoryMenuViewModel.m */,
 			);
 			path = memu;
+			sourceTree = "<group>";
+		};
+		14A1A209277419A300ADE9CE /* 习题集 */ = {
+			isa = PBXGroup;
+			children = (
+				14A1A20A27741A4200ADE9CE /* AlgorithmSubjectModel.h */,
+				14A1A20B27741A4200ADE9CE /* AlgorithmSubjectModel.m */,
+			);
+			path = "习题集";
+			sourceTree = "<group>";
+		};
+		14A1A21527741F9F00ADE9CE /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				1498378127632D2500194EF6 /* AlgorithmMenuViewModel.h */,
+				1498378227632D2500194EF6 /* AlgorithmMenuViewModel.m */,
+			);
+			path = menu;
+			sourceTree = "<group>";
+		};
+		14A1A21627741FAA00ADE9CE /* list */ = {
+			isa = PBXGroup;
+			children = (
+				1498376A2763086C00194EF6 /* AlgorithmListViewModel.h */,
+				1498376B2763086C00194EF6 /* AlgorithmListViewModel.m */,
+			);
+			path = list;
+			sourceTree = "<group>";
+		};
+		14A1A21727741FC400ADE9CE /* base */ = {
+			isa = PBXGroup;
+			children = (
+				148F027F276464B600405983 /* AlgorithmViewModelDelegate.h */,
+				14D77AA72760890B00247D06 /* AlgorithmViewModel.h */,
+				14D77AA82760890B00247D06 /* AlgorithmViewModel.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		14A1A2182774222C00ADE9CE /* baseAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				14D582CC2772FF9E00AA075B /* AlgorithmDetailViewModel+Search.h */,
+				14D582CD2772FF9E00AA075B /* AlgorithmDetailViewModel+Search.m */,
+				143B40D027718ECA00292E7E /* AlgorithmDetailViewModel+AlgorithmThought.h */,
+				143B40D127718ECA00292E7E /* AlgorithmDetailViewModel+AlgorithmThought.m */,
+				143B40C82771842600292E7E /* AlgorithmDetailViewModel+Algorithm.h */,
+				143B40C92771842600292E7E /* AlgorithmDetailViewModel+Algorithm.m */,
+			);
+			path = baseAlgorithm;
+			sourceTree = "<group>";
+		};
+		14A1A2192774224A00ADE9CE /* subject */ = {
+			isa = PBXGroup;
+			children = (
+				14A1A21A277422A700ADE9CE /* AlgorithmDetailViewModel+Subject.h */,
+				14A1A21B277422A700ADE9CE /* AlgorithmDetailViewModel+Subject.m */,
+			);
+			path = subject;
+			sourceTree = "<group>";
+		};
+		14A1A21D277422C700ADE9CE /* base */ = {
+			isa = PBXGroup;
+			children = (
+				1453DFFF274777C50004690F /* sceneDelegate */,
+				1498377A27631A4800194EF6 /* invocation */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		14A1A21E277422F400ADE9CE /* business */ = {
+			isa = PBXGroup;
+			children = (
+				1498378427632D8C00194EF6 /* factoryDelegate */,
+				14D77AA6276088ED00247D06 /* algorithm */,
+				1453DFFC274776E70004690F /* socket */,
+				1453DFFB274776D20004690F /* list */,
+			);
+			path = business;
+			sourceTree = "<group>";
+		};
+		14A1A21F2774234A00ADE9CE /* factory */ = {
+			isa = PBXGroup;
+			children = (
+				1498378D2763328F00194EF6 /* memu */,
+				148F028227647A8900405983 /* list */,
+				145EB3DA276844B20036E8E7 /* detail */,
+			);
+			path = factory;
 			sourceTree = "<group>";
 		};
 		14B5EBC927269C9B00EFC011 = {
@@ -465,9 +533,7 @@
 			children = (
 				14D77AA3276088E300247D06 /* AlgorithmModel.h */,
 				14D77AA4276088E300247D06 /* AlgorithmModel.m */,
-				14983773276309DE00194EF6 /* 算法分类 */,
-				149837672763084C00194EF6 /* AlgorithmDetailModel.h */,
-				149837682763084C00194EF6 /* AlgorithmDetailModel.m */,
+				14983773276309DE00194EF6 /* 算法 */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -475,9 +541,7 @@
 		14D77AA6276088ED00247D06 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				148F027F276464B600405983 /* AlgorithmViewModelDelegate.h */,
-				14D77AA72760890B00247D06 /* AlgorithmViewModel.h */,
-				14D77AA82760890B00247D06 /* AlgorithmViewModel.m */,
+				14A1A21F2774234A00ADE9CE /* factory */,
 				1498378627632E5600194EF6 /* viewModels */,
 			);
 			path = algorithm;
@@ -617,7 +681,6 @@
 				1498378327632D2500194EF6 /* AlgorithmMenuViewModel.m in Sources */,
 				1431B217273229DC003820C0 /* QueueViewModel.m in Sources */,
 				145EB3E02769D05F0036E8E7 /* AlgorithThoughtModel.m in Sources */,
-				1496359D276AE0C800A02BCA /* AlgorithmThoughtViewModel.m in Sources */,
 				1453DFFA274775DF0004690F /* SocketViewController.m in Sources */,
 				1453E002274778080004690F /* SceneDelegateViewModel.m in Sources */,
 				14983790276332D000194EF6 /* AlgorithmFactoryMenuViewModel.m in Sources */,
@@ -625,6 +688,8 @@
 				14D582CE2772FF9E00AA075B /* AlgorithmDetailViewModel+Search.m in Sources */,
 				1431B207273162FA003820C0 /* CommonViewModel.m in Sources */,
 				1431B213273223BF003820C0 /* ListViewModel.m in Sources */,
+				14A1A21C277422A700ADE9CE /* AlgorithmDetailViewModel+Subject.m in Sources */,
+				14A1A20C27741A4200ADE9CE /* AlgorithmSubjectModel.m in Sources */,
 				14133285273B941600E9280A /* QuestionsViewModel.m in Sources */,
 				14D582D12773003E00AA075B /* AlgorithmSearchDetailModel.m in Sources */,
 				14983763276307C300194EF6 /* AlgorithmDetailViewController.m in Sources */,
@@ -642,7 +707,6 @@
 				14B5EBDA27269C9B00EFC011 /* SceneDelegate.m in Sources */,
 				143B40D227718ECA00292E7E /* AlgorithmDetailViewModel+AlgorithmThought.m in Sources */,
 				148F028527647AAF00405983 /* AlgorithmFactoryListViewModel.m in Sources */,
-				149837692763084C00194EF6 /* AlgorithmDetailModel.m in Sources */,
 				145EB3E32769D1A60036E8E7 /* AlgorithmSearchModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -40,9 +40,10 @@
 - (NSDictionary *)modelDictionary{
     if (!_modelDictionary) {
         _modelDictionary = @{
-            @0  :  @"AlgorithThoughtModel",
+            @0  :   @"AlgorithThoughtModel",
             @1  :   @"AlgorithmSortModel",
-            @2 :    @"AlgorithmSearchModel"
+            @2 :    @"AlgorithmSearchModel",
+            @3 :    @"AlgorithmSubjectModel"
         };
     }
     return _modelDictionary;
