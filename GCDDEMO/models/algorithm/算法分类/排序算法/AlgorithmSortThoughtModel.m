@@ -11,7 +11,11 @@
 -(NSArray *)showData{
     return @[
         @"exhaustiveAttackMethod",
-        @"arecursiveAlgorithmMethod"
+        @"recursionAlgorithmMethod",
+        @"arecursiveAlgorithmMethod",
+        @"divideConquerAlgorithm",
+        @"probabilityAlgorithm",
+        @"greedyAlgorithm"
     ];
 }
 @end

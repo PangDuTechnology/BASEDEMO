@@ -9,6 +9,7 @@
 #import "AlgorithmDetailViewModel.h"
 #import "AlgorithmDetailViewModel+AlgorithmThought.h"
 #import "AlgorithmDetailViewModel+Algorithm.h"
+#import "AlgorithmDetailViewModel+Search.h"
 #import "AlgorithmSortDetailModel.h"
 @interface AlgorithmFactoryDetailViewModel ()
 @property (nonnull,nonatomic,strong) AlgorithmDetailViewModel *viewModel;
@@ -51,7 +52,9 @@
         _modelDictionary = @{
             @"AlgorithThoughtModel":@"AlgorithmSortThoughtModel",
             
-            @"AlgorithmSortModel": @"AlgorithmSortDetailModel"
+            @"AlgorithmSortModel": @"AlgorithmSortDetailModel",
+            
+            @"AlgorithmSearchModel" : @"AlgorithmSearchDetailModel"
         };
     }
     return _modelDictionary;

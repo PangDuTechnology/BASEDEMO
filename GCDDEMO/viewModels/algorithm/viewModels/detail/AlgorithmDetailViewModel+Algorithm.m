@@ -80,6 +80,9 @@
     [AlgorithmDetailViewModel quickSort:array low:0 high:array.count-1];
     NSLog(@"快速排序======%@",array);
 }
+- (void)quickSortAlgorithmArray:(NSMutableArray *)array{
+    [AlgorithmDetailViewModel quickSort:array low:0 high:array.count-1];
+}
 + (void)quickSort:(NSMutableArray *)array low:(NSInteger)left high:(NSInteger)right{
     if (left >= right) {
         return;

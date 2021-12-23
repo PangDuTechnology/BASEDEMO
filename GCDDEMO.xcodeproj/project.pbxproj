@@ -43,6 +43,8 @@
 		14B5EBE227269C9D00EFC011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14B5EBE127269C9D00EFC011 /* Assets.xcassets */; };
 		14B5EBE527269C9D00EFC011 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14B5EBE327269C9D00EFC011 /* LaunchScreen.storyboard */; };
 		14B5EBE827269C9D00EFC011 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B5EBE727269C9D00EFC011 /* main.m */; };
+		14D582CE2772FF9E00AA075B /* AlgorithmDetailViewModel+Search.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D582CD2772FF9E00AA075B /* AlgorithmDetailViewModel+Search.m */; };
+		14D582D12773003E00AA075B /* AlgorithmSearchDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D582D02773003E00AA075B /* AlgorithmSearchDetailModel.m */; };
 		14D77AA5276088E300247D06 /* AlgorithmModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D77AA4276088E300247D06 /* AlgorithmModel.m */; };
 		14D77AA92760890B00247D06 /* AlgorithmViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D77AA82760890B00247D06 /* AlgorithmViewModel.m */; };
 		14D77AAC2760894D00247D06 /* AlgorithmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D77AAB2760894D00247D06 /* AlgorithmViewController.m */; };
@@ -123,6 +125,10 @@
 		14B5EBE427269C9D00EFC011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14B5EBE627269C9D00EFC011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14B5EBE727269C9D00EFC011 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14D582CC2772FF9E00AA075B /* AlgorithmDetailViewModel+Search.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlgorithmDetailViewModel+Search.h"; sourceTree = "<group>"; };
+		14D582CD2772FF9E00AA075B /* AlgorithmDetailViewModel+Search.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AlgorithmDetailViewModel+Search.m"; sourceTree = "<group>"; };
+		14D582CF2773003E00AA075B /* AlgorithmSearchDetailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmSearchDetailModel.h; sourceTree = "<group>"; };
+		14D582D02773003E00AA075B /* AlgorithmSearchDetailModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmSearchDetailModel.m; sourceTree = "<group>"; };
 		14D77AA3276088E300247D06 /* AlgorithmModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmModel.h; sourceTree = "<group>"; };
 		14D77AA4276088E300247D06 /* AlgorithmModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmModel.m; sourceTree = "<group>"; };
 		14D77AA72760890B00247D06 /* AlgorithmViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmViewModel.h; sourceTree = "<group>"; };
@@ -296,6 +302,8 @@
 			children = (
 				1498376D2763088E00194EF6 /* AlgorithmDetailViewModel.h */,
 				1498376E2763088E00194EF6 /* AlgorithmDetailViewModel.m */,
+				14D582CC2772FF9E00AA075B /* AlgorithmDetailViewModel+Search.h */,
+				14D582CD2772FF9E00AA075B /* AlgorithmDetailViewModel+Search.m */,
 				143B40D027718ECA00292E7E /* AlgorithmDetailViewModel+AlgorithmThought.h */,
 				143B40D127718ECA00292E7E /* AlgorithmDetailViewModel+AlgorithmThought.m */,
 				143B40C82771842600292E7E /* AlgorithmDetailViewModel+Algorithm.h */,
@@ -353,6 +361,8 @@
 			children = (
 				145EB3E12769D1A60036E8E7 /* AlgorithmSearchModel.h */,
 				145EB3E22769D1A60036E8E7 /* AlgorithmSearchModel.m */,
+				14D582CF2773003E00AA075B /* AlgorithmSearchDetailModel.h */,
+				14D582D02773003E00AA075B /* AlgorithmSearchDetailModel.m */,
 			);
 			path = "查找算法";
 			sourceTree = "<group>";
@@ -612,9 +622,11 @@
 				1453E002274778080004690F /* SceneDelegateViewModel.m in Sources */,
 				14983790276332D000194EF6 /* AlgorithmFactoryMenuViewModel.m in Sources */,
 				1431B20A2731634E003820C0 /* UnLockViewModel.m in Sources */,
+				14D582CE2772FF9E00AA075B /* AlgorithmDetailViewModel+Search.m in Sources */,
 				1431B207273162FA003820C0 /* CommonViewModel.m in Sources */,
 				1431B213273223BF003820C0 /* ListViewModel.m in Sources */,
 				14133285273B941600E9280A /* QuestionsViewModel.m in Sources */,
+				14D582D12773003E00AA075B /* AlgorithmSearchDetailModel.m in Sources */,
 				14983763276307C300194EF6 /* AlgorithmDetailViewController.m in Sources */,
 				1498376C2763086C00194EF6 /* AlgorithmListViewModel.m in Sources */,
 				1498377D27631A8500194EF6 /* InvocationViewModel.m in Sources */,
