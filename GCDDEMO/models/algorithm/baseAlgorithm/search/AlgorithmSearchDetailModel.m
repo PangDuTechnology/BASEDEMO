@@ -8,7 +8,7 @@
 #import "AlgorithmSearchDetailModel.h"
 
 @implementation AlgorithmSearchDetailModel
--(NSArray *)showData{
+-(NSArray *)returnModelArray{
     return @[
         
         @"orderFindAlgorithm",

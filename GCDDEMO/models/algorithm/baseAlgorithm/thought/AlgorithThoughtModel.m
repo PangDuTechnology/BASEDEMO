@@ -8,7 +8,7 @@
 #import "AlgorithThoughtModel.h"
 
 @implementation AlgorithThoughtModel
--(NSArray *)showData{
+-(NSArray *)returnModelArray{
     return @[
         @"穷举算法思想",
         @"递推算法思想",

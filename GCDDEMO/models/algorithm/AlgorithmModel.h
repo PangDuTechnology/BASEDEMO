@@ -6,11 +6,10 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "AlgorithmModelDelegate.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface AlgorithmModel : NSObject
--(NSArray *)showData;
+@interface AlgorithmModel : NSObject<AlgorithmModelDelegate>
 @end
 
 NS_ASSUME_NONNULL_END

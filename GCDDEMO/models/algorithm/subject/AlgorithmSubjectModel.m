@@ -8,9 +8,10 @@
 #import "AlgorithmSubjectModel.h"
 
 @implementation AlgorithmSubjectModel
--(NSArray *)showData{
+-(NSArray *)returnModelArray{
     return @[
-        @"逆置字符串"
+        @"逆置字符串",
+        @"两个字符串是否互为变形词"
         ];
 }
 @end

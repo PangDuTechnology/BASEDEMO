@@ -8,7 +8,7 @@
 #import "AlgorithmSearchModel.h"
 
 @implementation AlgorithmSearchModel
--(NSArray *)showData{
+-(NSArray *)returnModelArray{
     return @[
         @"顺序查找",
         @"折半查找",

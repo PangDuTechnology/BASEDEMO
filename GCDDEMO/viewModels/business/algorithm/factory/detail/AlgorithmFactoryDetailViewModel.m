@@ -13,7 +13,6 @@
 #import "AlgorithmSortDetailModel.h"
 @interface AlgorithmFactoryDetailViewModel ()
 @property (nonnull,nonatomic,strong) AlgorithmDetailViewModel *viewModel;
-@property (nonnull,nonatomic,strong) NSDictionary *modelDictionary;
 @end
 @implementation AlgorithmFactoryDetailViewModel
 #pragma mark ------ CreateAlgorithmModelsDelegate
@@ -24,10 +23,10 @@
     NSIndexPath *indexPath = array[0];
     NSString *strModel = array[1];
     AlgorithmModel *model =  [self didSelectAlgorithmModel:strModel];
-    if (indexPath.row > [model showData].count - 1 ) {
+    if (indexPath.row > [model returnModelArray].count - 1 ) {
         return;
     }
-    NSString *strSelector = [model showData][indexPath.row];
+    NSString *strSelector = [model returnModelArray][indexPath.row];
     SEL sel = NSSelectorFromString(strSelector);
     if (!sel) {
         return;
@@ -35,8 +34,23 @@
     IMP imp = [self.viewModel methodForSelector:sel];
     imp();
 }
+- (id)getModelDictionary{
+    Class class = NSClassFromString(@"AlgorithmFactoryDetailModel");
+    id  value = [class new];
+    SEL sel = NSSelectorFromString(@"returnModelDicionary");
+    if ([value respondsToSelector:sel]) {
+        IMP imp = [value methodForSelector:sel];
+        NSDictionary*(*funaction)(id,SEL) = (void *)imp;
+        return funaction(value,sel);
+    }
+    return NULL;
+}
 - (AlgorithmModel *)didSelectAlgorithmModel:(NSString*)strModel{
-    NSString *strName = self.modelDictionary[strModel];
+    NSDictionary *dictionary =  [self getModelDictionary];
+     if (dictionary == NULL) {
+         return nil;
+     }
+    NSString *strName = dictionary[strModel];
     Class class = NSClassFromString(strName);
     return [class new];
 }
@@ -46,17 +60,5 @@
         _viewModel = [[AlgorithmDetailViewModel alloc] init];
     }
     return _viewModel;
-}
-- (NSDictionary *)modelDictionary{
-    if (!_modelDictionary) {
-        _modelDictionary = @{
-            @"AlgorithThoughtModel":@"AlgorithmSortThoughtModel",
-            
-            @"AlgorithmSortModel": @"AlgorithmSortDetailModel",
-            
-            @"AlgorithmSearchModel" : @"AlgorithmSearchDetailModel"
-        };
-    }
-    return _modelDictionary;
 }
 @end

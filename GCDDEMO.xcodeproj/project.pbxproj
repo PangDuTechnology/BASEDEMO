@@ -37,6 +37,9 @@
 		14983790276332D000194EF6 /* AlgorithmFactoryMenuViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498378F276332D000194EF6 /* AlgorithmFactoryMenuViewModel.m */; };
 		14A1A20C27741A4200ADE9CE /* AlgorithmSubjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A1A20B27741A4200ADE9CE /* AlgorithmSubjectModel.m */; };
 		14A1A21C277422A700ADE9CE /* AlgorithmDetailViewModel+Subject.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A1A21B277422A700ADE9CE /* AlgorithmDetailViewModel+Subject.m */; };
+		14A1A2222774246800ADE9CE /* AlgorithmSubjectDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A1A2212774246800ADE9CE /* AlgorithmSubjectDetailModel.m */; };
+		14A1A226277426CC00ADE9CE /* AlgorithmFactoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A1A225277426CC00ADE9CE /* AlgorithmFactoryModel.m */; };
+		14A1A2292774271800ADE9CE /* AlgorithmFactoryDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A1A2282774271800ADE9CE /* AlgorithmFactoryDetailModel.m */; };
 		14B5EBD727269C9B00EFC011 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B5EBD627269C9B00EFC011 /* AppDelegate.m */; };
 		14B5EBDA27269C9B00EFC011 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B5EBD927269C9B00EFC011 /* SceneDelegate.m */; };
 		14B5EBDD27269C9B00EFC011 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B5EBDC27269C9B00EFC011 /* ListViewController.m */; };
@@ -114,6 +117,13 @@
 		14A1A20B27741A4200ADE9CE /* AlgorithmSubjectModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmSubjectModel.m; sourceTree = "<group>"; };
 		14A1A21A277422A700ADE9CE /* AlgorithmDetailViewModel+Subject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlgorithmDetailViewModel+Subject.h"; sourceTree = "<group>"; };
 		14A1A21B277422A700ADE9CE /* AlgorithmDetailViewModel+Subject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AlgorithmDetailViewModel+Subject.m"; sourceTree = "<group>"; };
+		14A1A2202774246800ADE9CE /* AlgorithmSubjectDetailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmSubjectDetailModel.h; sourceTree = "<group>"; };
+		14A1A2212774246800ADE9CE /* AlgorithmSubjectDetailModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmSubjectDetailModel.m; sourceTree = "<group>"; };
+		14A1A224277426CC00ADE9CE /* AlgorithmFactoryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmFactoryModel.h; sourceTree = "<group>"; };
+		14A1A225277426CC00ADE9CE /* AlgorithmFactoryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmFactoryModel.m; sourceTree = "<group>"; };
+		14A1A2272774271800ADE9CE /* AlgorithmFactoryDetailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmFactoryDetailModel.h; sourceTree = "<group>"; };
+		14A1A2282774271800ADE9CE /* AlgorithmFactoryDetailModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmFactoryDetailModel.m; sourceTree = "<group>"; };
+		14A1A22A2774275300ADE9CE /* AlgorithmModelDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmModelDelegate.h; sourceTree = "<group>"; };
 		14B5EBD227269C9B00EFC011 /* GCDDEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCDDEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14B5EBD527269C9B00EFC011 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		14B5EBD627269C9B00EFC011 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -317,16 +327,16 @@
 			path = algorithm;
 			sourceTree = "<group>";
 		};
-		14983770276309A500194EF6 /* 基本算法思想 */ = {
+		14983770276309A500194EF6 /* thought */ = {
 			isa = PBXGroup;
 			children = (
 				145EB3DE2769D05F0036E8E7 /* AlgorithThoughtModel.h */,
 				145EB3DF2769D05F0036E8E7 /* AlgorithThoughtModel.m */,
 			);
-			path = "基本算法思想";
+			path = thought;
 			sourceTree = "<group>";
 		};
-		14983771276309B400194EF6 /* 排序算法 */ = {
+		14983771276309B400194EF6 /* sort */ = {
 			isa = PBXGroup;
 			children = (
 				1498377427630A4D00194EF6 /* AlgorithmSortModel.h */,
@@ -336,10 +346,10 @@
 				143B40CB2771856900292E7E /* AlgorithmSortThoughtModel.h */,
 				143B40CC2771856900292E7E /* AlgorithmSortThoughtModel.m */,
 			);
-			path = "排序算法";
+			path = sort;
 			sourceTree = "<group>";
 		};
-		14983772276309C500194EF6 /* 查找算法 */ = {
+		14983772276309C500194EF6 /* search */ = {
 			isa = PBXGroup;
 			children = (
 				145EB3E12769D1A60036E8E7 /* AlgorithmSearchModel.h */,
@@ -347,20 +357,19 @@
 				14D582CF2773003E00AA075B /* AlgorithmSearchDetailModel.h */,
 				14D582D02773003E00AA075B /* AlgorithmSearchDetailModel.m */,
 			);
-			path = "查找算法";
+			path = search;
 			sourceTree = "<group>";
 		};
-		14983773276309DE00194EF6 /* 算法 */ = {
+		14983773276309DE00194EF6 /* baseAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
 				149837642763082C00194EF6 /* AlgorithmMenuModel.h */,
 				149837652763082C00194EF6 /* AlgorithmMenuModel.m */,
-				14983770276309A500194EF6 /* 基本算法思想 */,
-				14983771276309B400194EF6 /* 排序算法 */,
-				14983772276309C500194EF6 /* 查找算法 */,
-				14A1A209277419A300ADE9CE /* 习题集 */,
+				14983770276309A500194EF6 /* thought */,
+				14983771276309B400194EF6 /* sort */,
+				14983772276309C500194EF6 /* search */,
 			);
-			path = "算法";
+			path = baseAlgorithm;
 			sourceTree = "<group>";
 		};
 		1498377A27631A4800194EF6 /* invocation */ = {
@@ -401,13 +410,15 @@
 			path = memu;
 			sourceTree = "<group>";
 		};
-		14A1A209277419A300ADE9CE /* 习题集 */ = {
+		14A1A209277419A300ADE9CE /* subject */ = {
 			isa = PBXGroup;
 			children = (
 				14A1A20A27741A4200ADE9CE /* AlgorithmSubjectModel.h */,
 				14A1A20B27741A4200ADE9CE /* AlgorithmSubjectModel.m */,
+				14A1A2202774246800ADE9CE /* AlgorithmSubjectDetailModel.h */,
+				14A1A2212774246800ADE9CE /* AlgorithmSubjectDetailModel.m */,
 			);
-			path = "习题集";
+			path = subject;
 			sourceTree = "<group>";
 		};
 		14A1A21527741F9F00ADE9CE /* menu */ = {
@@ -490,6 +501,17 @@
 			path = factory;
 			sourceTree = "<group>";
 		};
+		14A1A2232774269000ADE9CE /* factory */ = {
+			isa = PBXGroup;
+			children = (
+				14A1A224277426CC00ADE9CE /* AlgorithmFactoryModel.h */,
+				14A1A225277426CC00ADE9CE /* AlgorithmFactoryModel.m */,
+				14A1A2272774271800ADE9CE /* AlgorithmFactoryDetailModel.h */,
+				14A1A2282774271800ADE9CE /* AlgorithmFactoryDetailModel.m */,
+			);
+			path = factory;
+			sourceTree = "<group>";
+		};
 		14B5EBC927269C9B00EFC011 = {
 			isa = PBXGroup;
 			children = (
@@ -531,9 +553,12 @@
 		14D77AA22760882900247D06 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				14A1A22A2774275300ADE9CE /* AlgorithmModelDelegate.h */,
 				14D77AA3276088E300247D06 /* AlgorithmModel.h */,
 				14D77AA4276088E300247D06 /* AlgorithmModel.m */,
-				14983773276309DE00194EF6 /* 算法 */,
+				14A1A2232774269000ADE9CE /* factory */,
+				14983773276309DE00194EF6 /* baseAlgorithm */,
+				14A1A209277419A300ADE9CE /* subject */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -672,10 +697,13 @@
 			files = (
 				149837602763078C00194EF6 /* AlgorithmListViewController.m in Sources */,
 				14B5EBDD27269C9B00EFC011 /* ListViewController.m in Sources */,
+				14A1A2292774271800ADE9CE /* AlgorithmFactoryDetailModel.m in Sources */,
+				14A1A226277426CC00ADE9CE /* AlgorithmFactoryModel.m in Sources */,
 				14B5EBD727269C9B00EFC011 /* AppDelegate.m in Sources */,
 				14D77AA92760890B00247D06 /* AlgorithmViewModel.m in Sources */,
 				1498377927630E0300194EF6 /* AlgorithmSortDetailModel.m in Sources */,
 				143B40CD2771856900292E7E /* AlgorithmSortThoughtModel.m in Sources */,
+				14A1A2222774246800ADE9CE /* AlgorithmSubjectDetailModel.m in Sources */,
 				14D77AA5276088E300247D06 /* AlgorithmModel.m in Sources */,
 				14D77AAC2760894D00247D06 /* AlgorithmViewController.m in Sources */,
 				1498378327632D2500194EF6 /* AlgorithmMenuViewModel.m in Sources */,

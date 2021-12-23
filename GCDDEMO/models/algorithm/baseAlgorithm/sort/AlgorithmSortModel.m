@@ -11,7 +11,7 @@
 @end
 
 @implementation AlgorithmSortModel
--(NSArray *)showData{
+-(NSArray *)returnModelArray{
     return  @[
         @"冒泡排序",
         @"选择排序",

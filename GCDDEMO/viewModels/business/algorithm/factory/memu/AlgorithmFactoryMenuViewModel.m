@@ -28,7 +28,7 @@
     [self.viewModel didSelectRowAtIndexPathArray:dataArray pushController:pushController];
 }
 - (NSArray *)tableViewDataSourceData{
-    return [self.model showData];
+    return [self.model returnModelArray];
 }
 #pragma mark ------ property
 - (AlgorithmMenuViewModel *)viewModel{

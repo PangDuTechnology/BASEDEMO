@@ -27,7 +27,7 @@
     NSString *strModel = self.modelDictionary[@(index.row)];
     Class class = NSClassFromString(strModel);
     self.model = [class new];
-    NSArray *dataArray = [self.model showData];
+    NSArray *dataArray = [self.model returnModelArray];
     return dataArray;
 }
 #pragma mark ------ property

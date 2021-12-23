@@ -11,7 +11,7 @@
 @end
 
 @implementation AlgorithmMenuModel
--(NSArray *)showData{
+-(NSArray *)returnModelArray{
     return @[
         @"基本算法思想",
         @"排序算法",

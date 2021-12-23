@@ -8,7 +8,7 @@
 #import "AlgorithmSortThoughtModel.h"
 
 @implementation AlgorithmSortThoughtModel
--(NSArray *)showData{
+-(NSArray *)returnModelArray{
     return @[
         @"exhaustiveAttackMethod",
         @"recursionAlgorithmMethod",

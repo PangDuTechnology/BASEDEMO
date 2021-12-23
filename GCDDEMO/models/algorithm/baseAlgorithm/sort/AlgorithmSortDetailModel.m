@@ -11,7 +11,7 @@
 @end
 
 @implementation AlgorithmSortDetailModel
--(NSArray *)showData{
+-(NSArray *)returnModelArray{
     return @[
         @"bubbleSortAlgorithm",
         
