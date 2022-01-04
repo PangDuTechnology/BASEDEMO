@@ -16,7 +16,7 @@
         
         @"AlgorithmSearchModel" : @"AlgorithmSearchDetailModel",
         
-        @"AlgorithmSubjectModel":   @"AlgorithmSubjectDetailModel"
+        @"AlgorithmSubjectMenuModel":   @"AlgorithmSubjectStringModel"
     };
 }
 @end

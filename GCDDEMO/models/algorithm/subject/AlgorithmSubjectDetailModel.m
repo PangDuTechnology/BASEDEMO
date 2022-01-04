@@ -11,7 +11,22 @@
 -(NSArray *)returnModelArray{
     return @[
         @"invertedStringAlgorithm",
-        @"isDeformationAlgorithm"
+        
+        @"isDeformationAlgorithm",
+        
+        @"isRotationAlgorithm",
+        
+        @"convertAlgorithm",
+        
+        @"allNumbersSumAlgorithm",
+        
+        @"removeKZerosAlgorithm",
+        
+        @"replaceStringAlgorithm",
+        
+        @"getCountStringAlgorithm",
+        
+        @"isUniqueStringAlgorithm"
         ];
 }
 @end

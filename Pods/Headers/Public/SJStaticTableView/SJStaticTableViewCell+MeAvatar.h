@@ -1,1 +1,0 @@
-../../../SJStaticTableView/SJStaticTableViewComponent/SJStaticTableViewCell+MeAvatar.h

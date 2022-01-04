@@ -43,7 +43,7 @@
             @0  :   @"AlgorithThoughtModel",
             @1  :   @"AlgorithmSortModel",
             @2 :    @"AlgorithmSearchModel",
-            @3 :    @"AlgorithmSubjectModel"
+            @3 :    @"AlgorithmSubjectMenuModel"
         };
     }
     return _modelDictionary;

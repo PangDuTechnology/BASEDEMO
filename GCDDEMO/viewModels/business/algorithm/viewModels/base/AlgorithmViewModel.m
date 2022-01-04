@@ -9,6 +9,7 @@
 #import "AlgorithmModel.h"
 @interface AlgorithmViewModel ()
 @property(nonnull,nonatomic,strong)  InvocationViewModel *invocationViewModel;
+@property(nonnull,nonatomic,strong) ViewContrillerJumpViewModel  *jumpViewModel;
 @end
 
 @implementation AlgorithmViewModel
@@ -18,5 +19,11 @@
         _invocationViewModel = [[InvocationViewModel alloc] init];
     }
     return _invocationViewModel;
+}
+- (ViewContrillerJumpViewModel *)jumpViewModel{
+    if (!_jumpViewModel) {
+        _jumpViewModel = [[ViewContrillerJumpViewModel alloc] init];
+    }
+    return _jumpViewModel;
 }
 @end

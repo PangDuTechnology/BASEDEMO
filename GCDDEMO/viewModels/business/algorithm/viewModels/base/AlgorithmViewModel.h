@@ -6,13 +6,14 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
 #import "AlgorithmViewModelDelegate.h"
 #import "InvocationViewModel.h"
+#import "ViewContrillerJumpViewModel.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface AlgorithmViewModel : NSObject<AlgorithmViewModelDelegate>
 @property(nonnull,nonatomic,strong,readonly) InvocationViewModel *invocationViewModel;
+@property(nonnull,nonatomic,strong,readonly) ViewContrillerJumpViewModel  *jumpViewModel;
 @end
 
 NS_ASSUME_NONNULL_END

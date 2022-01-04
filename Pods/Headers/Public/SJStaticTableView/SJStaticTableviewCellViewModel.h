@@ -1,1 +1,0 @@
-../../../SJStaticTableView/SJStaticTableViewComponent/SJStaticTableviewCellViewModel.h

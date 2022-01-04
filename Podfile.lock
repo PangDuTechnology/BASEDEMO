@@ -14,21 +14,25 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - SJStaticTableView (1.2.0)
+  - CocoaAsyncSocket (7.6.4)
+  - JLRoutes (2.1)
 
 DEPENDENCIES:
   - AFNetworking
-  - SJStaticTableView
+  - CocoaAsyncSocket
+  - JLRoutes
 
 SPEC REPOS:
   trunk:
     - AFNetworking
-    - SJStaticTableView
+    - CocoaAsyncSocket
+    - JLRoutes
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  SJStaticTableView: b04329ab8bf5823463468a06650bf00090008fed
+  CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
+  JLRoutes: d755245322b94227662ea3e43492fdca94e05c5b
 
-PODFILE CHECKSUM: 7100ac7e93bd7651131602f7a942089b213af7fc
+PODFILE CHECKSUM: 66f9a7076bb6fd42765fa2700e5693b6b7f0a442
 
 COCOAPODS: 1.11.2

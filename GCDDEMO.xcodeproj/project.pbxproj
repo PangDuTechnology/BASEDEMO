@@ -19,8 +19,16 @@
 		143B40CA2771842600292E7E /* AlgorithmDetailViewModel+Algorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 143B40C92771842600292E7E /* AlgorithmDetailViewModel+Algorithm.m */; };
 		143B40CD2771856900292E7E /* AlgorithmSortThoughtModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 143B40CC2771856900292E7E /* AlgorithmSortThoughtModel.m */; };
 		143B40D227718ECA00292E7E /* AlgorithmDetailViewModel+AlgorithmThought.m in Sources */ = {isa = PBXBuildFile; fileRef = 143B40D127718ECA00292E7E /* AlgorithmDetailViewModel+AlgorithmThought.m */; };
+		145110352775746700B208D8 /* AlgorithmDetailViewModel+NSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 145110342775746700B208D8 /* AlgorithmDetailViewModel+NSString.m */; };
+		1451103D27757F3C00B208D8 /* GCDDEMOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1451103C27757F3C00B208D8 /* GCDDEMOUITests.m */; };
+		1451103F27757F3C00B208D8 /* GCDDEMOUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1451103E27757F3C00B208D8 /* GCDDEMOUITestsLaunchTests.m */; };
+		1451104C27757F4500B208D8 /* GCDDEMOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1451104B27757F4500B208D8 /* GCDDEMOTests.m */; };
 		1453DFFA274775DF0004690F /* SocketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1453DFF9274775DF0004690F /* SocketViewController.m */; };
 		1453E002274778080004690F /* SceneDelegateViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1453E001274778080004690F /* SceneDelegateViewModel.m */; };
+		14590916277AF70500A27CB0 /* AlgorithmSubjectMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14590915277AF70500A27CB0 /* AlgorithmSubjectMenuModel.m */; };
+		14590919277AF9E100A27CB0 /* AlgorithmSubjectStringModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14590918277AF9E100A27CB0 /* AlgorithmSubjectStringModel.m */; };
+		1459091D277C2B5D00A27CB0 /* ViewContrillerJumpViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1459091C277C2B5D00A27CB0 /* ViewContrillerJumpViewModel.m */; };
+		14590921277C2B8900A27CB0 /* ViewControllerJumpModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14590920277C2B8900A27CB0 /* ViewControllerJumpModel.m */; };
 		145EB3DD276844FF0036E8E7 /* AlgorithmFactoryDetailViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 145EB3DC276844FF0036E8E7 /* AlgorithmFactoryDetailViewModel.m */; };
 		145EB3E02769D05F0036E8E7 /* AlgorithThoughtModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 145EB3DF2769D05F0036E8E7 /* AlgorithThoughtModel.m */; };
 		145EB3E32769D1A60036E8E7 /* AlgorithmSearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 145EB3E22769D1A60036E8E7 /* AlgorithmSearchModel.m */; };
@@ -35,8 +43,6 @@
 		1498377D27631A8500194EF6 /* InvocationViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498377C27631A8500194EF6 /* InvocationViewModel.m */; };
 		1498378327632D2500194EF6 /* AlgorithmMenuViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498378227632D2500194EF6 /* AlgorithmMenuViewModel.m */; };
 		14983790276332D000194EF6 /* AlgorithmFactoryMenuViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498378F276332D000194EF6 /* AlgorithmFactoryMenuViewModel.m */; };
-		14A1A20C27741A4200ADE9CE /* AlgorithmSubjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A1A20B27741A4200ADE9CE /* AlgorithmSubjectModel.m */; };
-		14A1A21C277422A700ADE9CE /* AlgorithmDetailViewModel+Subject.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A1A21B277422A700ADE9CE /* AlgorithmDetailViewModel+Subject.m */; };
 		14A1A2222774246800ADE9CE /* AlgorithmSubjectDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A1A2212774246800ADE9CE /* AlgorithmSubjectDetailModel.m */; };
 		14A1A226277426CC00ADE9CE /* AlgorithmFactoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A1A225277426CC00ADE9CE /* AlgorithmFactoryModel.m */; };
 		14A1A2292774271800ADE9CE /* AlgorithmFactoryDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A1A2282774271800ADE9CE /* AlgorithmFactoryDetailModel.m */; };
@@ -53,6 +59,23 @@
 		14D77AAC2760894D00247D06 /* AlgorithmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D77AAB2760894D00247D06 /* AlgorithmViewController.m */; };
 		A2743358077ACAB22C7EADEE /* libPods-GCDDEMO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C87238DDA6B7E01ED0ADFD2B /* libPods-GCDDEMO.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1451104027757F3C00B208D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14B5EBCA27269C9B00EFC011 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14B5EBD127269C9B00EFC011;
+			remoteInfo = GCDDEMO;
+		};
+		1451104D27757F4500B208D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14B5EBCA27269C9B00EFC011 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14B5EBD127269C9B00EFC011;
+			remoteInfo = GCDDEMO;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		14133283273B941500E9280A /* QuestionsViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuestionsViewModel.h; sourceTree = "<group>"; };
@@ -78,10 +101,25 @@
 		143B40CC2771856900292E7E /* AlgorithmSortThoughtModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmSortThoughtModel.m; sourceTree = "<group>"; };
 		143B40D027718ECA00292E7E /* AlgorithmDetailViewModel+AlgorithmThought.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlgorithmDetailViewModel+AlgorithmThought.h"; sourceTree = "<group>"; };
 		143B40D127718ECA00292E7E /* AlgorithmDetailViewModel+AlgorithmThought.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AlgorithmDetailViewModel+AlgorithmThought.m"; sourceTree = "<group>"; };
+		145110332775746700B208D8 /* AlgorithmDetailViewModel+NSString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlgorithmDetailViewModel+NSString.h"; sourceTree = "<group>"; };
+		145110342775746700B208D8 /* AlgorithmDetailViewModel+NSString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AlgorithmDetailViewModel+NSString.m"; sourceTree = "<group>"; };
+		1451103A27757F3C00B208D8 /* GCDDEMOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCDDEMOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1451103C27757F3C00B208D8 /* GCDDEMOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDDEMOUITests.m; sourceTree = "<group>"; };
+		1451103E27757F3C00B208D8 /* GCDDEMOUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDDEMOUITestsLaunchTests.m; sourceTree = "<group>"; };
+		1451104927757F4500B208D8 /* GCDDEMOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCDDEMOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1451104B27757F4500B208D8 /* GCDDEMOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDDEMOTests.m; sourceTree = "<group>"; };
 		1453DFF8274775DF0004690F /* SocketViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketViewController.h; sourceTree = "<group>"; };
 		1453DFF9274775DF0004690F /* SocketViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketViewController.m; sourceTree = "<group>"; };
 		1453E000274778080004690F /* SceneDelegateViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegateViewModel.h; sourceTree = "<group>"; };
 		1453E001274778080004690F /* SceneDelegateViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegateViewModel.m; sourceTree = "<group>"; };
+		14590914277AF70500A27CB0 /* AlgorithmSubjectMenuModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmSubjectMenuModel.h; sourceTree = "<group>"; };
+		14590915277AF70500A27CB0 /* AlgorithmSubjectMenuModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmSubjectMenuModel.m; sourceTree = "<group>"; };
+		14590917277AF9E100A27CB0 /* AlgorithmSubjectStringModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmSubjectStringModel.h; sourceTree = "<group>"; };
+		14590918277AF9E100A27CB0 /* AlgorithmSubjectStringModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmSubjectStringModel.m; sourceTree = "<group>"; };
+		1459091B277C2B5D00A27CB0 /* ViewContrillerJumpViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewContrillerJumpViewModel.h; sourceTree = "<group>"; };
+		1459091C277C2B5D00A27CB0 /* ViewContrillerJumpViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewContrillerJumpViewModel.m; sourceTree = "<group>"; };
+		1459091F277C2B8900A27CB0 /* ViewControllerJumpModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerJumpModel.h; sourceTree = "<group>"; };
+		14590920277C2B8900A27CB0 /* ViewControllerJumpModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerJumpModel.m; sourceTree = "<group>"; };
 		145EB3DB276844FF0036E8E7 /* AlgorithmFactoryDetailViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmFactoryDetailViewModel.h; sourceTree = "<group>"; };
 		145EB3DC276844FF0036E8E7 /* AlgorithmFactoryDetailViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmFactoryDetailViewModel.m; sourceTree = "<group>"; };
 		145EB3DE2769D05F0036E8E7 /* AlgorithThoughtModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithThoughtModel.h; sourceTree = "<group>"; };
@@ -113,10 +151,6 @@
 		1498378A27632FCC00194EF6 /* CreateAlgorithmModelsDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateAlgorithmModelsDelegate.h; sourceTree = "<group>"; };
 		1498378E276332D000194EF6 /* AlgorithmFactoryMenuViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmFactoryMenuViewModel.h; sourceTree = "<group>"; };
 		1498378F276332D000194EF6 /* AlgorithmFactoryMenuViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmFactoryMenuViewModel.m; sourceTree = "<group>"; };
-		14A1A20A27741A4200ADE9CE /* AlgorithmSubjectModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmSubjectModel.h; sourceTree = "<group>"; };
-		14A1A20B27741A4200ADE9CE /* AlgorithmSubjectModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmSubjectModel.m; sourceTree = "<group>"; };
-		14A1A21A277422A700ADE9CE /* AlgorithmDetailViewModel+Subject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlgorithmDetailViewModel+Subject.h"; sourceTree = "<group>"; };
-		14A1A21B277422A700ADE9CE /* AlgorithmDetailViewModel+Subject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AlgorithmDetailViewModel+Subject.m"; sourceTree = "<group>"; };
 		14A1A2202774246800ADE9CE /* AlgorithmSubjectDetailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmSubjectDetailModel.h; sourceTree = "<group>"; };
 		14A1A2212774246800ADE9CE /* AlgorithmSubjectDetailModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmSubjectDetailModel.m; sourceTree = "<group>"; };
 		14A1A224277426CC00ADE9CE /* AlgorithmFactoryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmFactoryModel.h; sourceTree = "<group>"; };
@@ -151,6 +185,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1451103727757F3C00B208D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1451104627757F4500B208D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		14B5EBCF27269C9B00EFC011 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -183,6 +231,7 @@
 		1431B2022730F045003820C0 /* models */ = {
 			isa = PBXGroup;
 			children = (
+				1459091E277C2B6F00A27CB0 /* jump */,
 				14D77AA22760882900247D06 /* algorithm */,
 				1453DFFE274777170004690F /* socket */,
 				1453DFFD274777090004690F /* list */,
@@ -239,6 +288,23 @@
 			path = socket;
 			sourceTree = "<group>";
 		};
+		1451103B27757F3C00B208D8 /* GCDDEMOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1451103C27757F3C00B208D8 /* GCDDEMOUITests.m */,
+				1451103E27757F3C00B208D8 /* GCDDEMOUITestsLaunchTests.m */,
+			);
+			path = GCDDEMOUITests;
+			sourceTree = "<group>";
+		};
+		1451104A27757F4500B208D8 /* GCDDEMOTests */ = {
+			isa = PBXGroup;
+			children = (
+				1451104B27757F4500B208D8 /* GCDDEMOTests.m */,
+			);
+			path = GCDDEMOTests;
+			sourceTree = "<group>";
+		};
 		1453DFFB274776D20004690F /* list */ = {
 			isa = PBXGroup;
 			children = (
@@ -283,6 +349,24 @@
 				1453E001274778080004690F /* SceneDelegateViewModel.m */,
 			);
 			path = sceneDelegate;
+			sourceTree = "<group>";
+		};
+		1459091A277C2B0300A27CB0 /* jump */ = {
+			isa = PBXGroup;
+			children = (
+				1459091B277C2B5D00A27CB0 /* ViewContrillerJumpViewModel.h */,
+				1459091C277C2B5D00A27CB0 /* ViewContrillerJumpViewModel.m */,
+			);
+			path = jump;
+			sourceTree = "<group>";
+		};
+		1459091E277C2B6F00A27CB0 /* jump */ = {
+			isa = PBXGroup;
+			children = (
+				1459091F277C2B8900A27CB0 /* ViewControllerJumpModel.h */,
+				14590920277C2B8900A27CB0 /* ViewControllerJumpModel.m */,
+			);
+			path = jump;
 			sourceTree = "<group>";
 		};
 		145EB3DA276844B20036E8E7 /* detail */ = {
@@ -413,8 +497,10 @@
 		14A1A209277419A300ADE9CE /* subject */ = {
 			isa = PBXGroup;
 			children = (
-				14A1A20A27741A4200ADE9CE /* AlgorithmSubjectModel.h */,
-				14A1A20B27741A4200ADE9CE /* AlgorithmSubjectModel.m */,
+				14590914277AF70500A27CB0 /* AlgorithmSubjectMenuModel.h */,
+				14590915277AF70500A27CB0 /* AlgorithmSubjectMenuModel.m */,
+				14590917277AF9E100A27CB0 /* AlgorithmSubjectStringModel.h */,
+				14590918277AF9E100A27CB0 /* AlgorithmSubjectStringModel.m */,
 				14A1A2202774246800ADE9CE /* AlgorithmSubjectDetailModel.h */,
 				14A1A2212774246800ADE9CE /* AlgorithmSubjectDetailModel.m */,
 			);
@@ -465,8 +551,8 @@
 		14A1A2192774224A00ADE9CE /* subject */ = {
 			isa = PBXGroup;
 			children = (
-				14A1A21A277422A700ADE9CE /* AlgorithmDetailViewModel+Subject.h */,
-				14A1A21B277422A700ADE9CE /* AlgorithmDetailViewModel+Subject.m */,
+				145110332775746700B208D8 /* AlgorithmDetailViewModel+NSString.h */,
+				145110342775746700B208D8 /* AlgorithmDetailViewModel+NSString.m */,
 			);
 			path = subject;
 			sourceTree = "<group>";
@@ -474,6 +560,7 @@
 		14A1A21D277422C700ADE9CE /* base */ = {
 			isa = PBXGroup;
 			children = (
+				1459091A277C2B0300A27CB0 /* jump */,
 				1453DFFF274777C50004690F /* sceneDelegate */,
 				1498377A27631A4800194EF6 /* invocation */,
 			);
@@ -516,6 +603,8 @@
 			isa = PBXGroup;
 			children = (
 				14B5EBD427269C9B00EFC011 /* GCDDEMO */,
+				1451103B27757F3C00B208D8 /* GCDDEMOUITests */,
+				1451104A27757F4500B208D8 /* GCDDEMOTests */,
 				14B5EBD327269C9B00EFC011 /* Products */,
 				DF802A867A42A15050ACDCAF /* Pods */,
 				06339F37BE4B0FC209FA915C /* Frameworks */,
@@ -526,6 +615,8 @@
 			isa = PBXGroup;
 			children = (
 				14B5EBD227269C9B00EFC011 /* GCDDEMO.app */,
+				1451103A27757F3C00B208D8 /* GCDDEMOUITests.xctest */,
+				1451104927757F4500B208D8 /* GCDDEMOTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -584,6 +675,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1451103927757F3C00B208D8 /* GCDDEMOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1451104227757F3C00B208D8 /* Build configuration list for PBXNativeTarget "GCDDEMOUITests" */;
+			buildPhases = (
+				1451103627757F3C00B208D8 /* Sources */,
+				1451103727757F3C00B208D8 /* Frameworks */,
+				1451103827757F3C00B208D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1451104127757F3C00B208D8 /* PBXTargetDependency */,
+			);
+			name = GCDDEMOUITests;
+			productName = GCDDEMOUITests;
+			productReference = 1451103A27757F3C00B208D8 /* GCDDEMOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		1451104827757F4500B208D8 /* GCDDEMOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1451104F27757F4500B208D8 /* Build configuration list for PBXNativeTarget "GCDDEMOTests" */;
+			buildPhases = (
+				1451104527757F4500B208D8 /* Sources */,
+				1451104627757F4500B208D8 /* Frameworks */,
+				1451104727757F4500B208D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1451104E27757F4500B208D8 /* PBXTargetDependency */,
+			);
+			name = GCDDEMOTests;
+			productName = GCDDEMOTests;
+			productReference = 1451104927757F4500B208D8 /* GCDDEMOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		14B5EBD127269C9B00EFC011 /* GCDDEMO */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14B5EBEB27269C9D00EFC011 /* Build configuration list for PBXNativeTarget "GCDDEMO" */;
@@ -592,7 +719,6 @@
 				14B5EBCE27269C9B00EFC011 /* Sources */,
 				14B5EBCF27269C9B00EFC011 /* Frameworks */,
 				14B5EBD027269C9B00EFC011 /* Resources */,
-				6C146C51218E56E90DD598B7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -612,6 +738,14 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
+					1451103927757F3C00B208D8 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 14B5EBD127269C9B00EFC011;
+					};
+					1451104827757F4500B208D8 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 14B5EBD127269C9B00EFC011;
+					};
 					14B5EBD127269C9B00EFC011 = {
 						CreatedOnToolsVersion = 13.0;
 					};
@@ -631,11 +765,27 @@
 			projectRoot = "";
 			targets = (
 				14B5EBD127269C9B00EFC011 /* GCDDEMO */,
+				1451103927757F3C00B208D8 /* GCDDEMOUITests */,
+				1451104827757F4500B208D8 /* GCDDEMOTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1451103827757F3C00B208D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1451104727757F4500B208D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		14B5EBD027269C9B00EFC011 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -649,23 +799,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6C146C51218E56E90DD598B7 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GCDDEMO/Pods-GCDDEMO-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GCDDEMO/Pods-GCDDEMO-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GCDDEMO/Pods-GCDDEMO-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		F7EECD72C4B858950A06F40B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -691,6 +824,23 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1451103627757F3C00B208D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1451103F27757F3C00B208D8 /* GCDDEMOUITestsLaunchTests.m in Sources */,
+				1451103D27757F3C00B208D8 /* GCDDEMOUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1451104527757F4500B208D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1451104C27757F4500B208D8 /* GCDDEMOTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		14B5EBCE27269C9B00EFC011 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -702,6 +852,7 @@
 				14B5EBD727269C9B00EFC011 /* AppDelegate.m in Sources */,
 				14D77AA92760890B00247D06 /* AlgorithmViewModel.m in Sources */,
 				1498377927630E0300194EF6 /* AlgorithmSortDetailModel.m in Sources */,
+				14590916277AF70500A27CB0 /* AlgorithmSubjectMenuModel.m in Sources */,
 				143B40CD2771856900292E7E /* AlgorithmSortThoughtModel.m in Sources */,
 				14A1A2222774246800ADE9CE /* AlgorithmSubjectDetailModel.m in Sources */,
 				14D77AA5276088E300247D06 /* AlgorithmModel.m in Sources */,
@@ -716,22 +867,24 @@
 				14D582CE2772FF9E00AA075B /* AlgorithmDetailViewModel+Search.m in Sources */,
 				1431B207273162FA003820C0 /* CommonViewModel.m in Sources */,
 				1431B213273223BF003820C0 /* ListViewModel.m in Sources */,
-				14A1A21C277422A700ADE9CE /* AlgorithmDetailViewModel+Subject.m in Sources */,
-				14A1A20C27741A4200ADE9CE /* AlgorithmSubjectModel.m in Sources */,
 				14133285273B941600E9280A /* QuestionsViewModel.m in Sources */,
 				14D582D12773003E00AA075B /* AlgorithmSearchDetailModel.m in Sources */,
 				14983763276307C300194EF6 /* AlgorithmDetailViewController.m in Sources */,
 				1498376C2763086C00194EF6 /* AlgorithmListViewModel.m in Sources */,
 				1498377D27631A8500194EF6 /* InvocationViewModel.m in Sources */,
+				14590919277AF9E100A27CB0 /* AlgorithmSubjectStringModel.m in Sources */,
 				14133288273B943900E9280A /* QuestionsModel.m in Sources */,
 				145EB3DD276844FF0036E8E7 /* AlgorithmFactoryDetailViewModel.m in Sources */,
+				1459091D277C2B5D00A27CB0 /* ViewContrillerJumpViewModel.m in Sources */,
 				143B40CA2771842600292E7E /* AlgorithmDetailViewModel+Algorithm.m in Sources */,
 				149837662763082C00194EF6 /* AlgorithmMenuModel.m in Sources */,
 				14B5EBE827269C9D00EFC011 /* main.m in Sources */,
 				1498377627630A4D00194EF6 /* AlgorithmSortModel.m in Sources */,
 				1431B2102731EAE3003820C0 /* UnLockModel.m in Sources */,
+				14590921277C2B8900A27CB0 /* ViewControllerJumpModel.m in Sources */,
 				1498376F2763088E00194EF6 /* AlgorithmDetailViewModel.m in Sources */,
 				1431B20D2731EACF003820C0 /* CommonModel.m in Sources */,
+				145110352775746700B208D8 /* AlgorithmDetailViewModel+NSString.m in Sources */,
 				14B5EBDA27269C9B00EFC011 /* SceneDelegate.m in Sources */,
 				143B40D227718ECA00292E7E /* AlgorithmDetailViewModel+AlgorithmThought.m in Sources */,
 				148F028527647AAF00405983 /* AlgorithmFactoryListViewModel.m in Sources */,
@@ -740,6 +893,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1451104127757F3C00B208D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14B5EBD127269C9B00EFC011 /* GCDDEMO */;
+			targetProxy = 1451104027757F3C00B208D8 /* PBXContainerItemProxy */;
+		};
+		1451104E27757F4500B208D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14B5EBD127269C9B00EFC011 /* GCDDEMO */;
+			targetProxy = 1451104D27757F4500B208D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1431B2182732320B003820C0 /* Main.storyboard */ = {
@@ -761,6 +927,96 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1451104327757F3C00B208D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7XP5ZBK9EN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.GCDDEMOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GCDDEMO;
+			};
+			name = Debug;
+		};
+		1451104427757F3C00B208D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7XP5ZBK9EN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.GCDDEMOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GCDDEMO;
+			};
+			name = Release;
+		};
+		1451105027757F4500B208D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7XP5ZBK9EN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.GCDDEMOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GCDDEMO.app/GCDDEMO";
+			};
+			name = Debug;
+		};
+		1451105127757F4500B208D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7XP5ZBK9EN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.GCDDEMOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GCDDEMO.app/GCDDEMO";
+			};
+			name = Release;
+		};
 		14B5EBE927269C9D00EFC011 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -932,6 +1188,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1451104227757F3C00B208D8 /* Build configuration list for PBXNativeTarget "GCDDEMOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1451104327757F3C00B208D8 /* Debug */,
+				1451104427757F3C00B208D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1451104F27757F4500B208D8 /* Build configuration list for PBXNativeTarget "GCDDEMOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1451105027757F4500B208D8 /* Debug */,
+				1451105127757F4500B208D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		14B5EBCD27269C9B00EFC011 /* Build configuration list for PBXProject "GCDDEMO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
